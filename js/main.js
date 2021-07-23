@@ -1,6 +1,9 @@
 const tabs = document.getElementById('tabs');
 const content = document.querySelectorAll('.content');
 
+const btnOpen = document.getElementById('btn-open');
+const modal = document.getElementById('wrapper-modal');
+
 const changeClass = elem => {
   console.log(elem)
   for(let i = 0; i < tabs.children.length; i++) {
@@ -22,6 +25,14 @@ tabs.addEventListener('click', evt => {
 
 const exchangeClass = element => {
   if(elem.classList.contains('active')) {
-    content.classList.add('active');
+    modal.classList.add('active');
   } 
 }
+
+
+btnOpen.addEventListener('click', () => {
+  modal.classList.add('active')
+})
+
+
+
