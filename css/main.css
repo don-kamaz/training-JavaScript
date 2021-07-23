@@ -1,0 +1,50 @@
+html {
+  width: 1490px;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+.tabs-block-wrapper {
+  width: 100%;
+  align-items: center;
+  flex-flow: column;
+}
+#tabs {
+  display: flex;
+  z-index: 5;
+}
+.tab-btn {
+  width: 100px;
+  min-height: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.tab-btn.active {
+  display: block;
+  height: 50px;
+  z-index: 10;
+  border-top: 5px solid green;
+  padding-top: 10px;
+  color: #000;
+}
+
+#contents {
+  max-width: 100%;
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid black;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+  padding: 10px;
+}
