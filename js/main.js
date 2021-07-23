@@ -2,7 +2,9 @@ const tabs = document.getElementById('tabs');
 const content = document.querySelectorAll('.content');
 
 const btnOpen = document.getElementById('btn-open');
+const btnClose = document.getElementById('btn-close');
 const modal = document.getElementById('wrapper-modal');
+const overlay = document.getElementById('overlay');
 
 const changeClass = elem => {
   console.log(elem)
@@ -34,5 +36,11 @@ btnOpen.addEventListener('click', () => {
   modal.classList.add('active')
 })
 
+const closeModal = () => {
+  modal.classList.remove('active');
+}
+
+overlay.addEvntListener('click', closeModal);
+btnClose.addEventListener('click', closeModal);
 
 
