@@ -14,66 +14,68 @@
       тренировка javascript
     </h1>
   </header>
-  <section class="main">
-    <section class="tabs-block-wrapper">
-      <h2 class="tabs">1. Табы</h2>
-      <div id="tabs">
-        <button class="tab-btn active" data-btn="1">Жираф</button>
-        <button class="tab-btn" data-btn="2">Олень</button>
-        <button class="tab-btn" data-btn="3">Козочка</button>
-        <button class="tab-btn" data-btn="4">Бурундук</button>
+  <section class="thirst-box tabs-block-wrapper">
+    <h2 class="tabs">1. Табы</h2>
+    <div id="tabs">
+      <button class="tab-btn active" data-btn="1">Жираф</button>
+      <button class="tab-btn" data-btn="2">Олень</button>
+      <button class="tab-btn" data-btn="3">Козочка</button>
+      <button class="tab-btn" data-btn="4">Бурундук</button>
+    </div>
+    <div id="contents">
+      <div class="content active" data-content="1">
+        <b>Жираф</b>
       </div>
-      <div id="contents">
-        <div class="content active" data-content="1">
-          <b>Жираф</b>
-        </div>
-        <div class="content" data-content="2">
-          <b>Олень</b>
-        </div>
-        <div class="content" data-content="3">
-          <b>Козочка</b>
-          <p>Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих.</p>
-
-          <p>Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.</p>
-        </div>
-        <div class="content" data-content="4">
-          <b>Бурундук</b>
-        </div>
+      <div class="content" data-content="2">
+        <b>Олень</b>
       </div>
-    </section>
-    <section class="second-box">
-      <h2 class="modal-window-title">
-        2. Модальное окно
-      </h2>
-      <div class="flex-wrapper">
-        <button id="btn-open">
-          Вызвать дождь
-        </button>
+      <div class="content" data-content="3">
+        <b>Козочка</b>
+        <p>Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих.</p>
+        <p>Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.</p>
       </div>
+      <div class="content" data-content="4">
+        <b>Бурундук</b>
+      </div>
+    </div>
+  </section>
+  <section class="second-box">
+    <h2 class="modal-window-title">
+      2. Модальное окно
+    </h2>
+    <div class="flex-wrapper">
+      <button id="btn-open">
+        Вызвать дождь
+      </button>
       <div id="wrapper-modal" class="active">
         <div id="overlay">
           <div  id="modal-window">
             <button id="btn-close">Close modal</button>
-          </div>
-          <div class="modal-content">
-            <h4 class="modal-window-into-title">Немного о дожде</h4>
-            <p class="modal-window-into-text">
-              <span>До́ждь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1].</span>
-              <span>modal-windowОсенние дожди. Южная Эстония</span>
-              <span>Летний дождь в Санкт-Петербурге</span>
-              <span>Жидкие осадки с меньшим диаметром капель называются моросью[2]. Капли с диаметром больше 6—7 мм разбиваются в процессе падения из облаков на меньшие капли, поэтому даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1]. В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].</span>
-            </p>
+            <div class="modal-content">
+              <h4 class="modal-window-into-title">Немного о дожде</h4>
+              <p class="modal-window-into-text">
+                <span>До́ждь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1].</span>
+                <span>modal-windowОсенние дожди. Южная Эстония</span>
+                <span>Летний дождь в Санкт-Петербурге</span>
+                <span>Жидкие осадки с меньшим диаметром капель называются моросью[2]. Капли с диаметром больше 6—7 мм разбиваются в процессе падения из облаков на меньшие капли, поэтому даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1]. В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <secton class="third-box">
-      <h2 class="slide-title">
-        Слайдер
-      </h2>
-    </secton>
+    </div>
   </section>
-  <footer class="footer" id="footer"></footer>
+  <secton class="third-box">
+    <h2 class="slide-title">
+      3. Слайдер
+    </h2>
+
+  </secton>
+  <footer class="footer" id="footer">
+    <p class="slogan">
+      Ну, что поделать, если мне все это удалось! :)
+    </p>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
