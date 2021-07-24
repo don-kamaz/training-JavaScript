@@ -5,7 +5,6 @@ const btnOpen = document.getElementById('btn-open');
 const btnClose = document.getElementById('btn-close');
 const modal = document.getElementById('wrapper-modal');
 const overlay = document.getElementById('overlay');
-const modalContent = document.getElementById('modal-content');
 
 const changeClass = elem => {
   console.log(elem)
@@ -28,7 +27,7 @@ tabs.addEventListener('click', evt => {
 
 const exchangeClass = element => {
   if(elem.classList.contains('active')) {
-    modalContent.classList.add('active');
+    content.classList.add('active');
   } 
 }
 
