@@ -40,7 +40,6 @@ const closeModal = () => {
   modal.classList.remove('active');
 }
 
-overlay.addEvntListener('click', closeModal);
+overlay.addEventListener('click', closeModal);
 btnClose.addEventListener('click', closeModal);
-
 
