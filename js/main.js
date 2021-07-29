@@ -13,7 +13,7 @@ const prev = document.getElementById('btn-prev'),
       dots = document.querySelectorAll('.dot'),
       slidesWrap = document.querySelectorAll('.slider-wrapper');
 
-const tabsElement = Array.from(document.querySelectorAll('.tab-btn'));
+const tabsElement = Array.from(document.querySelectorAll('.tab'));
 
 function changeClass(el){
   for(let i = 0; i < tabs.children.length; i++){
