@@ -242,10 +242,6 @@ h1 {
   margin-top: 15px;
 }
 
-.dot.active {
-  background-color: #000000;
-}
-
 .third-box .dot {
   width: 15px;
   height: 15px;
@@ -259,6 +255,13 @@ h1 {
 .third-box .dot:last-child{
   margin-right: 0;
 }
+
+.dot.active {
+  background-color: #000000;
+}
+
+
+
 
 /*  footer  */
 
