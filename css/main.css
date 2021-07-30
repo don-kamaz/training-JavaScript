@@ -60,7 +60,7 @@ h4 {
   font-size: 20px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   border: 1px solid #A9ADD1;
   cursor: pointer;
   background-color: #fff;
@@ -72,7 +72,6 @@ h4 {
 .tab-btn.active {
   display: flex;
   align-items: center;
-  text-align: center;
   border: 1px solid #A9ADD1;
   border-top: 5px solid rgba(92, 187, 76, 1);
   width: 163px;
