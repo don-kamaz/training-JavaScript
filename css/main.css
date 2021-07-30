@@ -44,6 +44,7 @@ h4 {
   width: 100%;
   display: flex;
   flex-flow: column;
+  vertical-align: bottom;
 }
 .tabs-block-wrapper:hover {
   border-bottom-right-radius: 10px;
@@ -54,24 +55,27 @@ h4 {
   display: flex;
 }
 .tab-btn {
+  width: 163px;
   height: 40px;
   font-size: 20px;
   display: flex;
   align-items: center;
+  text-align: center;
   border: 1px solid #A9ADD1;
-  padding: 15px 48px;
   cursor: pointer;
   background-color: #fff;
   color: rgba(113, 116, 151, 1);
   width: 163px;
-  height: px;
+
 }
+
 .tab-btn.active {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #A9ADD1;
   border-top: 5px solid rgba(92, 187, 76, 1);
-  color: rgba(45, 54, 133, 1);
-  padding: 17px 48px;
   width: 163px;
-  height: 5px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
