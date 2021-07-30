@@ -190,6 +190,7 @@ h1 {
 }
 
 .third-box .flex-wrapper {
+  position: relative;
   width: 100%;
   display: flex;
 }
@@ -236,6 +237,10 @@ h1 {
 }
 
 .dots-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   margin-top: 15px;
